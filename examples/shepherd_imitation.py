@@ -204,7 +204,7 @@ def main():
         # shutdown env
         env.close()
         print('### Testing Completed ###')
-        print(f'Sucess Rate: {success_trials/n_episodes}')
+        print(f'Success Rate: {success_trials/n_episodes}')
 
 if __name__=='__main__':
     main()
